@@ -56,7 +56,7 @@ class _LoginScreenState extends State<LoginScreen> {
                           style: TextStyle(
                               fontSize: 15, fontWeight: FontWeight.w400),
                         ),
-                        Image.asset("assets/chatlogin2.jpg"),
+                        Image.asset("assets/chatlogin.jpg"),
                         TextFormField(
                           decoration: textInputDecoration.copyWith(
                               labelText: "Email",
