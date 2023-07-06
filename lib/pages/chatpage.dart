@@ -54,6 +54,11 @@ class _ChatPageState extends State<ChatPage> {
         backgroundColor: Theme.of(context).primaryColor,
         actions: [
           IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.call),
+          ),
+          IconButton(onPressed: () {}, icon: const Icon(Icons.video_call)),
+          IconButton(
               onPressed: () {
                 nextScreen(
                     context,
